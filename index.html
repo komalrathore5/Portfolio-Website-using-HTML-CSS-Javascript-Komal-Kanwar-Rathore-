@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Personal Portfolio Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap" rel="stylesheet">
+<!--box icons-->
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<!--cousto css-->
+</head>
+<body>
+    <!--header design-->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </header>
+    <!--home section design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Komal Kanwar Rathore</h1>
+            <h3>And I'm a<span>Frontend Developer</span></h3>
+            <p>Being a fresher, I am very adaptive and flexible in learning new things. “As I have just completed my post-graduation (M.Tech) in Digital communication, I am interested in being a full-stack developer. This gives me the liberty to explore my potential and learn new skills. It will be an honor to work here and Identify and develop my strength. In college as well, I was very dedicated to my academics and sports(extra-circular). Sports, as well as a project in operation, have taught me how to be a team player, and work in unison.</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/komal.kanwarrathore.35"><i class='bx bxl-facebook' ></i></i></a>
+                <a href="https://www.linkedin.com/in/komal-kanwar-rathore-401656190/"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://github.com/komalrathore5"><i class='bx bxl-github' ></i></a>
+            </div>
+            <a href="https://docs.google.com/document/d/1QSLPFnyt7r6HBXEl-NOW7Q0mQwnzr_u1S9KAHRjipDg/edit" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="IMG_20230402_204105.jpg"alt="">
+        </div>
+
+    </section>
+<!--about section design-->
+<section class="about" id="about">
+   <div class="about-img">
+    <img src="IMG_20230402_204105.jpg" alt="">
+   </div> 
+   <div class="about-content">
+    <h2 class="heading">About <span>Me</span></h2>
+    <h3>Frontend Developer</h3>
+    <p class="text">This is Komal Kanwar Rathore. I was born and brought up in Ajmer. I completed my B.tech in  Electronic and Communication(AUG 2016-NOV 2020) Govt .Women Engineering College, Ajmer and during my final year as part of minor project, done in stone Paper Scissors Game on Python 101 for data science in ALL Soft solution pvt. Ltd.(A Pioneer Institute & IBM Business Partner)(June 2019-july 2019)<span class="moreText"> major project ,done a project on Automatic staircase Lights using PIR Sensor and Relay. PIR sensor is used here to detect the human body movement, whenever there is any body movement the voltage at the output pin change. Basically it detects the change in heat and produces output  whenever such detection occurs, And Done M.tech  in Digital commutation (Aug2020-DEC2022) JECRC UNIVERSITY, JAIPUR .Apart form that ,I have a interest in basic Java, And DSA as well as I’m perusing a stack web development course and talking about the hobbies I like to dance and Cycling, Tracking and some also achievement in sports, representing My college in several college sports tournaments, that held in IIT and NIT and got 1,2 and 3 position in the volleyball Tournament (team game) that's all for now Thank you!</span></p>
+   <a href="#" class=" btn read-more-btn">Read More</a>
+</div>
+</section>
+<!--Portfolio section design-->
+<section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Project</span></h2>
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="thesis-writing .jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Thesis</h4>
+                <p>Performance of vehicular AD-HOC Network using GPSR Routing Protocol and Fuzzy Logic.Publication in the Journal of Optoelectronics Laser.</p>
+            <a href="http://gdzjg.org/index.php/JOL/article/view/1097"><i class='bx bx-link-external' ></i></a>
+            </div>
+        </div>
+        <div class="portfolio-box">
+        <img src="API.jpg" alt="">
+        <div class="portfolio-layer">
+            <h4>API Based Project</h4>
+            <p>Location Guessing:A feature that attracts developers in many industries to Maps API is location intelligence. The adility to leverage geolocation to intelligently to given the current location or just a fun API test.</p>
+        <a href="https://komalrathore5.github.io/F3-Contest-25-March-Geolocation-API-map-and-Local-stroage-/"><i class='bx bx-link-external' ></i></a>
+        </div>
+    </div>
+    <div class="portfolio-box">
+            <img src="HTML.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Basic Html,Css and JavaScript Project</h4>
+                <p>Using Baisc Html , Css and JavaScript made a car Gaming.</p>
+            <a href="https://komalrathore5.github.io/Project-F2-cargaming/"><i class='bx bx-link-external' ></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--contact section design-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact<span>Me!</span></h2>
+        <form onsubmit="sendEmail(); reset(); return false;">
+        <div class="input-box">
+            <input type="text" id="name" placeholder="Full Name">
+            <input type="email"  id="email"placeholder="Email Address">
+        </div>  
+        <div class="input-box">
+            <input type="number" id="mobile" placeholder="Mobile Number">
+            <input type="text"  id="email subjest" placeholder="Email Subject">
+
+        </div> 
+        <textarea name="" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>   
+        <input type="Submit" value="Send Message" class="btn">
+  
+        </form>
+    </section>
+    
+<!--footer design-->
+<footer  class="footer">
+    <div class="footer-text">
+<p>Portfolio by Komal Kanwar Rathore</p>
+    </div>
+    <div class="footer-iconTop">
+       <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+</footer>
+<!--scroll reveal-->
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+
+
+<!--custom js-->
+<script src="script.js"></script>
+
+    
+</body>
+</html>
